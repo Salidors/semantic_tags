@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8"> <!-- кодировка-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>основы. полный курс</title> <!-- название вкладки, вверху-->
+    <link rel="shortcut icon" href="#путь к картинке" type="#тип картинки">
+    <!--картинка рядом с "title" -->
+    <link rel="stylesheet" href="styles.css"><!-- подключение стилей-->
+</head>
+
+<body>
+    <h1>Hello, world!!!</h1>
+    <hr>
+    <p id="bottom">Просто текст</p>
+    <address>информация об авторе</address>
+    <hr>
+    <q>
+        ::before
+        текст цитаты
+        after::
+    </q>
+    <address>информация об авторе</address>
+    <hr>
+    <blockquote>
+        <!--цитаты или заметки больших размеров-->
+        <p>
+            "
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus architecto labore adipisci cupiditate velit
+            quam temporibus nobis veniam explicabo cumque, laboriosam nam. Animi esse dolorem architecto aut eos rem
+            blanditiis, porro magnam exercitationem quo pariatur fugit, eligendi quae at velit optio, sapiente voluptate
+            dicta sequi? Voluptates accusantium odit tenetur minus?
+            "
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure pariatur explicabo delectus laborum impedit
+            corporis consequuntur eaque amet laudantium nobis.
+        </p>
+    </blockquote>
+    <br>
+    <time datetime="10.04.1985">мой день рождения (спрятана дата)</time>
+    <hr>
+    <!--Выделение текста-->
+    <b>Жирный</b>
+    <br>
+    <i>Курсив</i>
+    <br>
+    <tt>Машинописный текст</tt>
+    <br>
+    <s>Зачеркнутый</s>
+    <hr>
+    <strong>Жирный акцентированный текст</strong>
+    <br>
+    <em>Курсивный акцентированный текст</em>
+    <hr>
+    <!--Визуальное уменьшение или увеличение текста-->
+    <h2>
+        Посмотри как можно
+        <small>уменьшить</small>
+        любой текст
+    </h2>
+    <h2>
+        Посмотри как можно
+        <big>увеличить</big>
+        любой текст
+    </h2>
+    <h2>
+        Посмотри как можно
+        <del>Зачеркнуть</del>
+        любой текст
+    </h2>
+    <h2>
+        Посмотри как можно
+        <ins>подчеркнуть</ins>
+        любой текст
+    </h2>
+    <h2>
+        Посмотри как можно
+        <sub>опустить в низ</sub>
+        любой текст
+    </h2>
+    <h2>
+        Посмотри как можно
+        <sup>поднять на верх</sup>
+        любой текст
+    </h2>
+    <hr>
+    <p id="marc">Работа со списками</p>
+    <ul>
+        <li type="#">Маркерованый список</li>
+        <li>Маркерованый список</li>
+        <li>Маркерованый список</li>
+        <li>Маркерованый список</li>
+    </ul>
+    <br>
+    <ol>
+        <li>Номерованый список</li>
+        <li>Номерованый список</li>
+        <li>Номерованый список</li>
+        <li>Номерованый список</li>
+    </ol>
+    <ol start="10">
+        <li>Номерованый список</li>
+        <li>Номерованый список</li>
+        <li>Номерованый список</li>
+        <li>Номерованый список</li>
+    </ol>
+    <ol reversed>
+        <li>Номерованый список</li>
+        <li>Номерованый список</li>
+        <li>Номерованый список</li>
+        <li>Номерованый список</li>
+    </ol>
+    <ol>
+        <li>Номерованый список
+            <ul>без маркера
+                <li>Маркерованый список</li>
+                <li>Маркерованый список</li>
+                <ol>
+                    <li>Номерованый список</li>
+                    <li>Номерованый список</li>
+                    <li>Номерованый список</li>
+                </ol>
+                <li>Маркерованый список</li>
+            </ul>
+
+        </li>
+        <li>Номерованый список</li>
+        <li>Номерованый список</li>
+        <li>Номерованый список</li>
+    </ol>
+    <!--Список определений-->
+    <dl>
+        <dt>сам термин</dt>
+        <dd>определение термина, поясняющий текст</dd>
+        <dt>сам термин</dt>
+        <dd>определение термина</dd>
+    </dl>
+    <hr>
+    <p id="img">вставка изображения</p>
+    <img src="./imaje1.jpg" alt="сердце из листов нотной тетради с розой">
+    <!--Можно добавить Responsiv дизайн-->
+    <picture>
+        <source media="(min-widgt:580px)" srcset="#">
+    </picture>
+
+    <figure>
+        <img src="./imaje2.jpg" alt="бабочка на пальце">
+        <figcaption>Описание картинки</figcaption>
+    </figure>
+    <hr>
+    <p id="table">Создание таблиц</p>
+    <table>
+        <tbody>
+            <tr>
+                <td>Данные таблицы</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table>
+        <tbody>
+            <tr>
+                <td>Данные таблицы</td>
+                <td>Данные таблицы1</td>
+                <td>Данные таблицы2</td>
+                <td>Данные таблицы3</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table>
+        <tbody>
+            <tr>
+                <td>Данные таблицы</td>
+            </tr>
+            <tr>
+                <td>Данные таблицы</td>
+            </tr>
+            <tr>
+                <td>Данные таблицы</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table>
+        <tbody>
+            <tr>
+                <td>Данные таблицы</td>
+                <td>Данные таблицы</td>
+                <td>Данные таблицы</td>
+            </tr>
+            <tr>
+                <td>Данные таблицы2</td>
+                <td>Данные </td>
+                <td>Данные таблицы2</td>
+            </tr>
+            <tr>
+                <td>Данные таблицы 3 размер</td>
+                <td>Данные таблицы3</td>
+                <td>Данные таблицы3</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table>
+        <caption>Заголовок таблицы</caption>
+        <thead>
+            <tr>
+                <th>Данные таблицы</th>
+                <td>Данные таблицы</td>
+                <th>Данные таблицы</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Данные таблицы2</td>
+                <td>Данные таблицы2</td>
+                <td>Данные таблицы2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Данные таблицы3</td>
+            </tr>
+        </tfoot>
+        <tr>
+            <td></td>
+            <td colspan="2">!..................Объединение ячеек...................!</td>
+        </tr>
+    </table>
+    <hr>
+    <!--вставка ссылок-->
+
+    <!--простая ссылка-->
+    <a href="https://www.youtube.com/">You Tube</a>
+    <br>
+    <!--добавление функциональности загрузки-->
+    <a href="test.txt" download>Загрузка</a>
+    <br>
+    <!--открыть в новом окне-->
+    <a href="https://www.youtube.com/" target="_blank">You Tube 2</a>
+    <hr>
+    <a href="tel:+79218888951">Позвонить мне</a>
+    <br>
+    <a href="mailto:abramova.nina.g@gmail.com">Написать мне</a>
+    <br>
+    <a href="scype:test">Scype</a>
+    <hr>
+    <!--создание оглавления-->
+    <a href="#bottom">вперед в начало</a>
+    <br>
+    <a href="#marc">вперед к маркерам</a>
+    <br>
+    <a href="#img">вперед к изображениям</a>
+    <br>
+    <a href="#table">вперед к таблицам</a>
+    <hr>
+    <!--создание кнопок-->
+    <button type="button">просто кнопка</button>
+    <button type="submit">отправить</button>
+    <button type="reset">очистить</button>
+    <br>
+    <button type="button" autofocus>кнопка в фокусе</button>
+    <br>
+    <button type="button" disabled>отключенная кнопка</button>
+    <hr>
+    <!--минисправочник-->
+    <!--подсказка-->
+    <abbr title="Hiper Text Markup Language">HTML</abbr>
+    <hr>
+    <!--поле ввода-->
+    <input type="list">
+    <datalist id="list">
+        <option value="back-end">1</option>
+        <option value="front-end">2</option>
+        <option value="full-stack">3</option>
+        <option value="bo">4</option>
+        <option value="opa">5</option>
+        <option value="nuk">6</option>
+        <option value="sad">7</option>
+        <option value="jaja">8</option>
+        <option value="koko">9</option>
+    </datalist>
+    <hr>
+    <!--визуализация измерений-->
+    <meter value="10" max="100" low="40" high="90">Хорошо</meter>
+    <br>
+    <meter value="20" max="100" low="40" high="60">Плохо</meter>
+    <br>
+    <meter value="80" max="100" low="20" high="30">Знания</meter>
+    <br>
+    <meter value="60" max="100" low="40" high="60">Насыщение</meter>
+    <hr>
+    <progress value="70" max="100">Прогресс</progress>
+    <noscript>Пожалуйста не отображай скрипты</noscript>
+    <hr>
+    <!--важный момент в тексте-->
+    <mark>Маркед</mark>
+    <h2>
+        узнать
+        <mark>семантику</mark>
+        в html.
+    </h2>
+    <hr>
+    <!--область лоя рисования в js-->
+    <canvas id="example" width="200" height="200"></canvas>
+    <script>
+    // расписывается алгоритм для картинки в JS
+    </script>
+
+    <script src="main.js"></script> <!-- подключение скрипта в конце!!!-->
+</body>
+
+</html>
